@@ -18,7 +18,7 @@
                     </p>
                     
                     <div class="d-flex flex-column flex-sm-row align-items-sm-center gap-3 mb-5">
-                        <button class="btn text-white fw-semibold py-3 px-4 rounded" data-aos="fade-right">
+                        <button class="btn btn-outline-warning text-white fw-semibold py-3 px-4 rounded" data-aos="fade-right">
                             Schedule Consultation
                         </button>
                         <div class="d-flex align-items-center gap-2" data-aos="fade-right">
@@ -59,7 +59,7 @@
         </div>
     </div>
 
-    <!-- About Us Section -->
+    <!-- About Us -->
 <section id="about" class="py-5 py-lg-7 bg-light">
     <div class="container">
         <div class="row align-items-center">
@@ -94,7 +94,7 @@
                     <span class="text-uppercase text-warning fw-bold small" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">o</span>
-                    <h2 class="display-5 fw-bold mb-4" data-aos="fade-up">Committed to Justice and Client Success</h2>
+                    <h2 class="display-5 fw-bold mb-4" data-aos="fade-up">Committed to <span style="color:#ffc107;">Justice</span> and Client Success</h2>
                     
                     <p class="lead text-muted mb-4">
                         Founded in 1998, Justice Law Partners has established itself as a premier legal practice dedicated to protecting our clients' rights and achieving exceptional results.
@@ -136,7 +136,7 @@
                         <a href="#practice-areas" class="btn btn-warning btn-lg px-4 py-3">
                             Our Practice Areas <i class="bi bi-arrow-right ms-2"></i>
                         </a>
-                        <a href="#attorneys" class="btn btn-outline-dark btn-lg px-4 py-3">
+                        <a href="#attorneys" class="btn btn-outline-warning btn-lg px-4 py-3">
                             Meet Our Team
                         </a>
                     </div>
@@ -177,127 +177,148 @@
     </div>
 </section>
 
-<!-- Practice Areas Section -->
+
 <section id="practice-areas" class="py-5 py-lg-7">
   <div class="container">
-    <!-- Section Heading -->
+   
     <div class="text-center mb-5" data-aos="fade-up">
       <span class="text-uppercase text-warning fw-bold small">Legal Excellence</span>
-      <h2 class="display-5 fw-bold mb-3">Our Practice Areas</h2>
+      <h2 class="display-5 fw-bold mb-3">Our Service</h2>
       <p class="lead text-muted mx-auto" style="max-width: 700px;">
         We provide comprehensive legal services across multiple specialties to meet all your legal needs.
       </p>
     </div>
 
-    <!-- Practice Areas Grid -->
+   
     <div class="row g-4">
-      <!-- Area 1 -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="card h-100 border-0 shadow-sm hover-effect">
-          <div class="card-body p-4">
-            <div class="icon-box bg-warning bg-opacity-10 text-warning mb-4">
-              <i class="bi bi-bank fs-4"></i>
-            </div>
-            <h3 class="h4 fw-bold mb-3">Business Law</h3>
-            <p class="text-muted mb-4">
-              Corporate structuring, mergers & acquisitions, contracts, and compliance matters for businesses of all sizes.
-            </p>
-            <a href="#" class="btn btn-link text-warning p-0">
-              Learn More <i class="bi bi-arrow-right ms-2"></i>
-            </a>
-          </div>
-        </div>
+     
+    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+  <div class="card h-100 border-0 shadow-lg rounded-4 overflow-hidden position-relative transition-all" style="background: linear-gradient(135deg, #fffdf5, #fef9ed);">
+    <div class="card-body p-5">
+      <div class="d-flex align-items-center justify-content-center mb-4" style="height: 60px; width: 60px; background: rgba(255,193,7,0.15); border-radius: 50%;">
+        <i class="bi bi-bank fs-3 text-warning"></i>
       </div>
+      <h3 class="h4 fw-bold mb-3 text-dark">Business Law</h3>
+      <p class="text-muted mb-4">
+        Corporate structuring, mergers & acquisitions, contracts, and compliance matters for businesses of all sizes.
+      </p>
+      <a href="#" class="btn btn-sm btn-warning px-3 rounded-pill shadow-sm text-white">
+        Learn More <i class="bi bi-arrow-right ms-2"></i>
+      </a>
+    </div>
+ 
+    <div class="position-absolute bottom-0 end-0 opacity-10" style="font-size: 4rem; margin: -10px 10px;">
+      <i class="bi bi-bank text-warning"></i>
+    </div>
+  </div>
+</div>
 
-      <!-- Area 2 -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="card h-100 border-0 shadow-sm hover-effect">
-          <div class="card-body p-4">
-            <div class="icon-box bg-warning bg-opacity-10 text-warning mb-4">
-              <i class="bi bi-house-heart fs-4"></i>
-            </div>
-            <h3 class="h4 fw-bold mb-3">Family Law</h3>
-            <p class="text-muted mb-4">
-              Divorce, child custody, adoption, and prenuptial agreements handled with compassion and discretion.
-            </p>
-            <a href="#" class="btn btn-link text-warning p-0">
-              Learn More <i class="bi bi-arrow-right ms-2"></i>
-            </a>
-          </div>
-        </div>
-      </div>
 
-      <!-- Area 3 -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="card h-100 border-0 shadow-sm hover-effect">
-          <div class="card-body p-4">
-            <div class="icon-box bg-warning bg-opacity-10 text-warning mb-4">
-              <i class="bi bi-person-badge fs-4"></i>
-            </div>
-            <h3 class="h4 fw-bold mb-3">Criminal Defense</h3>
-            <p class="text-muted mb-4">
-              Aggressive defense for DUI, drug charges, white collar crimes, and all criminal matters.
-            </p>
-            <a href="#" class="btn btn-link text-warning p-0">
-              Learn More <i class="bi bi-arrow-right ms-2"></i>
-            </a>
-          </div>
-        </div>
+    
+<div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+  <div class="card h-100 border-0 shadow-lg rounded-4 overflow-hidden position-relative transition-all" style="background: linear-gradient(135deg, #fffdf5, #fef9ed);">
+    <div class="card-body p-5">
+      <div class="d-flex align-items-center justify-content-center mb-4" style="height: 60px; width: 60px; background: rgba(255,193,7,0.15); border-radius: 50%;">
+        <i class="bi bi-house-heart fs-3 text-warning"></i>
       </div>
+      <h3 class="h4 fw-bold mb-3 text-dark">Family Law</h3>
+      <p class="text-muted mb-4">
+        Divorce, child custody, adoption, and prenuptial agreements handled with compassion and discretion.
+      </p>
+      <a href="#" class="btn btn-sm btn-warning px-3 rounded-pill shadow-sm text-white">
+        Learn More <i class="bi bi-arrow-right ms-2"></i>
+      </a>
+    </div>
+    <div class="position-absolute bottom-0 end-0 opacity-10" style="font-size: 4rem; margin: -10px 10px;">
+      <i class="bi bi-house-heart text-warning"></i>
+    </div>
+  </div>
+</div>
 
-      <!-- Area 4 -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="card h-100 border-0 shadow-sm hover-effect">
-          <div class="card-body p-4">
-            <div class="icon-box bg-warning bg-opacity-10 text-warning mb-4">
-              <i class="bi bi-cash-coin fs-4"></i>
-            </div>
-            <h3 class="h4 fw-bold mb-3">Personal Injury</h3>
-            <p class="text-muted mb-4">
-              Maximizing compensation for auto accidents, medical malpractice, and workplace injuries.
-            </p>
-            <a href="#" class="btn btn-link text-warning p-0">
-              Learn More <i class="bi bi-arrow-right ms-2"></i>
-            </a>
-          </div>
-        </div>
-      </div>
 
-      <!-- Area 5 -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="card h-100 border-0 shadow-sm hover-effect">
-          <div class="card-body p-4">
-            <div class="icon-box bg-warning bg-opacity-10 text-warning mb-4">
-              <i class="bi bi-file-earmark-text fs-4"></i>
-            </div>
-            <h3 class="h4 fw-bold mb-3">Estate Planning</h3>
-            <p class="text-muted mb-4">
-              Wills, trusts, probate, and asset protection to secure your family's future.
-            </p>
-            <a href="#" class="btn btn-link text-warning p-0">
-              Learn More <i class="bi bi-arrow-right ms-2"></i>
-            </a>
-          </div>
-        </div>
+<div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+  <div class="card h-100 border-0 shadow-lg rounded-4 overflow-hidden position-relative transition-all" style="background: linear-gradient(135deg, #fffdf5, #fef9ed);">
+    <div class="card-body p-5">
+      <div class="d-flex align-items-center justify-content-center mb-4" style="height: 60px; width: 60px; background: rgba(255,193,7,0.15); border-radius: 50%;">
+        <i class="bi bi-person-badge fs-3 text-warning"></i>
       </div>
+      <h3 class="h4 fw-bold mb-3 text-dark">Criminal Defense</h3>
+      <p class="text-muted mb-4">
+        Aggressive defense for DUI, drug charges, white collar crimes, and all criminal matters.
+      </p>
+      <a href="#" class="btn btn-sm btn-warning px-3 rounded-pill shadow-sm text-white">
+        Learn More <i class="bi bi-arrow-right ms-2"></i>
+      </a>
+    </div>
+    <div class="position-absolute bottom-0 end-0 opacity-10" style="font-size: 4rem; margin: -10px 10px;">
+      <i class="bi bi-person-badge text-warning"></i>
+    </div>
+  </div>
+</div>
 
-      <!-- Area 6 -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="card h-100 border-0 shadow-sm hover-effect">
-          <div class="card-body p-4">
-            <div class="icon-box bg-warning bg-opacity-10 text-warning mb-4">
-              <i class="bi bi-briefcase fs-4"></i>
-            </div>
-            <h3 class="h4 fw-bold mb-3">Employment Law</h3>
-            <p class="text-muted mb-4">
-              Discrimination, wrongful termination, wage disputes, and HR compliance solutions.
-            </p>
-            <a href="#" class="btn btn-link text-warning p-0">
-              Learn More <i class="bi bi-arrow-right ms-2"></i>
-            </a>
-          </div>
-        </div>
+<!-- Card 3 -->
+<div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+  <div class="card h-100 border-0 shadow-lg rounded-4 overflow-hidden position-relative transition-all" style="background: linear-gradient(135deg, #fffdf5, #fef9ed);">
+    <div class="card-body p-5">
+      <div class="d-flex align-items-center justify-content-center mb-4" style="height: 60px; width: 60px; background: rgba(255,193,7,0.15); border-radius: 50%;">
+        <i class="bi bi-cash-coin fs-3 text-warning"></i>
       </div>
+      <h3 class="h4 fw-bold mb-3 text-dark">Personal Injury</h3>
+      <p class="text-muted mb-4">
+        Maximizing compensation for auto accidents, medical malpractice, and workplace injuries.
+      </p>
+      <a href="#" class="btn btn-sm btn-warning px-3 rounded-pill shadow-sm text-white">
+        Learn More <i class="bi bi-arrow-right ms-2"></i>
+      </a>
+    </div>
+    <div class="position-absolute bottom-0 end-0 opacity-10" style="font-size: 4rem; margin: -10px 10px;">
+      <i class="bi bi-cash-coin text-warning"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Card 4-->
+<div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+  <div class="card h-100 border-0 shadow-lg rounded-4 overflow-hidden position-relative transition-all" style="background: linear-gradient(135deg, #fffdf5, #fef9ed);">
+    <div class="card-body p-5">
+      <div class="d-flex align-items-center justify-content-center mb-4" style="height: 60px; width: 60px; background: rgba(255,193,7,0.15); border-radius: 50%;">
+        <i class="bi bi-file-earmark-text fs-3 text-warning"></i>
+      </div>
+      <h3 class="h4 fw-bold mb-3 text-dark">Estate Planning</h3>
+      <p class="text-muted mb-4">
+        Wills, trusts, probate, and asset protection to secure your family's future.
+      </p>
+      <a href="#" class="btn btn-sm btn-warning px-3 rounded-pill shadow-sm text-white">
+        Learn More <i class="bi bi-arrow-right ms-2"></i>
+      </a>
+    </div>
+    <div class="position-absolute bottom-0 end-0 opacity-10" style="font-size: 4rem; margin: -10px 10px;">
+      <i class="bi bi-file-earmark-text text-warning"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Card 5:-->
+<div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+  <div class="card h-100 border-0 shadow-lg rounded-4 overflow-hidden position-relative transition-all" style="background: linear-gradient(135deg, #fffdf5, #fef9ed);">
+    <div class="card-body p-5">
+      <div class="d-flex align-items-center justify-content-center mb-4" style="height: 60px; width: 60px; background: rgba(255,193,7,0.15); border-radius: 50%;">
+        <i class="bi bi-briefcase fs-3 text-warning"></i>
+      </div>
+      <h3 class="h4 fw-bold mb-3 text-dark">Employment Law</h3>
+      <p class="text-muted mb-4">
+        Discrimination, wrongful termination, wage disputes, and HR compliance solutions.
+      </p>
+      <a href="#" class="btn btn-sm btn-warning px-3 rounded-pill shadow-sm text-white">
+        Learn More <i class="bi bi-arrow-right ms-2"></i>
+      </a>
+    </div>
+    <div class="position-absolute bottom-0 end-0 opacity-10" style="font-size: 4rem; margin: -10px 10px;">
+      <i class="bi bi-briefcase text-warning"></i>
+    </div>
+  </div>
+</div>
+
     </div>
 
     <!-- CTA -->

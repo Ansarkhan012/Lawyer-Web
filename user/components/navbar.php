@@ -15,7 +15,15 @@
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
 
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap" rel="stylesheet">
+
+
+
    <style>
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
    
         .navbar {
             padding: 10px 0;
@@ -111,7 +119,7 @@
     
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgba(15, 32, 39, 0.8);">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="../index.php">
                 Justice<span>Law</span>
             </a>
             
@@ -122,19 +130,22 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link active" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="./about.php">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#practice-areas">Lawyer</a>
+                        <a class="nav-link" href="./lawyer.php">Lawyer</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="./contact.php">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Login.php">Login</a>
                     </li>
                     <li class="nav-item ms-lg-2">
-                        <a class="nav-link contact-btn" href="#consultation">
+                        <a class="nav-link contact-btn" href="./contact.php">
                             <i class="bi bi-telephone-fill me-1"></i> Consultation
                         </a>
                     </li>
